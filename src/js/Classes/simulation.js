@@ -15,8 +15,8 @@ class Simulation {
 
 	constructor(options = {}) {
 		this.initPrey = options['initPrey'] || 10;
-		this.initPred = options['initPred'] || 1;
-		this.initPlants = options['initPlants'] || 20;
+		this.initPred = options['initPred'] || 10;
+		this.initPlants = options['initPlants'] || 200;
 		this.mutationRate = options['mutationRate'] || 4;
 		this.preyOptions = options['preyOptions'] || {};
 		this.predatorOptions = options['predatorOptions'] || {};
